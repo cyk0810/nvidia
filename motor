@@ -23,10 +23,10 @@ void loop()
 {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-  analogWrite(EN1, 100);
+  analogWrite(EN1, 250);
   delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, LOW);
-  analogWrite(EN2, 100);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+  analogWrite(EN2, 250);
   delay(1000); // Wait for 1000 millisecond(s)
 }
